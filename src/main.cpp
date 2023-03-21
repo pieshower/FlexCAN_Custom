@@ -8,10 +8,10 @@
     24-bit frames. This below sends each "item" as 
     an independent UART message kinda similar. 
     Would like to check this on an acutal CAN chip.
-    */
+*/
 
-   // Also mathew said the CAN chip should interperate
-   // whatever you send it... So, bad chip? mmm fritos
+//  Also mathew said the CAN chip should interperate
+//  whatever you send it... So, bad chip? mmm fritos
 
 
 
