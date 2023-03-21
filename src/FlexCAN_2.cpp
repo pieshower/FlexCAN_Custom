@@ -124,3 +124,14 @@ void FlexCAN::write(CAN_message_t &msg)
     Serial1.print(frameToSend);
 
 }
+
+
+
+
+
+
+
+
+
+
+
