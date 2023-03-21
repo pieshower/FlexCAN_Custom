@@ -77,24 +77,11 @@ void FlexCAN::loadCAN(uint32_t id, uint8_t buf[])
     //Serial1.print(msgFRAME.len);
     //Serial1.print(msgFRAME.id);
 
-    /*
-    Gave up trying to merge it into one 
-    64 bit item. Got close and it worked in
-    visual studio but for some reason not here.
-    Anyways, Im pretty sure it sends like 15 
-    24-bit frames. This below sends each "item" as 
-    an independent UART message kinda similar. 
-    Would like to check this on an acutal CAN chip.
-    */
-
-   // Also mathew said the CAN chip should interperate
-   // whatever you send it... So, bad chip? mmm fritos
 
     for (uint8_t i = msgFRAME.len; i > 0; i--)
     {
 
         Serial1.write(buf[i - 1]);
-         Serial.write(buf[i - 1]);
 
         if (i == 1)
         {

@@ -1,9 +1,22 @@
+ 
+ 
+ /*
+    Gave up trying to merge it into one 
+    64 bit item. Got close and it worked in
+    visual studio but for some reason not here.
+    Anyways, Im pretty sure it sends like 15 
+    24-bit frames. This below sends each "item" as 
+    an independent UART message kinda similar. 
+    Would like to check this on an acutal CAN chip.
+    */
+
+   // Also mathew said the CAN chip should interperate
+   // whatever you send it... So, bad chip? mmm fritos
+
 
 
 #include <Arduino.h>
 #include "FlexCAN_2.h"
-
-
 
 
 
