@@ -1,7 +1,7 @@
 
 #include <Arduino.h>
 #include <iostream>
-#include "FlexCAN_2.hpp"
+#include "FlexCAN_2.h"
 
 
 using namespace std;
